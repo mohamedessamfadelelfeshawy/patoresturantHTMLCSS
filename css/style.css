@@ -1,0 +1,198 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.bac{
+  width: 100%;
+  height: 40vh;
+  background-image: url(../assets/images/our-story-01.jpg);
+  background-size: 100% 40vh;
+}
+.navbar{
+  color: white;
+  padding: 30px;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-around;
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+.navbar li a{
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+.navbar li a:hover{
+  background-color: blue;
+  color: black;
+}
+.dav1{
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.dav3 i{
+  margin-left: 25px;
+}
+/* part2 */
+
+.part2{
+  padding: 20px 20px 20px 10px;
+  margin-top: 60px;
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  border-bottom: 1px black solid;
+}
+.part2 div{
+  font-size: 25px;
+  padding-left: 20px;
+  opacity: 0.7;
+}
+/* start part3 */
+.part3{
+  margin: 70px 30px 0px 70px;
+  width: 100%;
+  height: 33vh;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 60% 30%;
+}
+.part3 .dav1{
+  background-color: blueviolet;
+  background-image: url(../assets/images/bg-intro-01.jpg);
+  background-size: 100% 33vh;
+}
+.part3 .dav1:hover{
+  background-size: 130% 40vh;
+}
+.part3 .dav1 img{
+  padding: 10px;
+  width: 70px;
+  height: 8vh;
+}
+/* dav2 */
+
+
+
+
+
+
+
+
+.part3 .dav2{
+  text-align: center;
+  background-color:chartreuse;
+  font-size: 30px;
+}
+.part3 .dav2 .one input{
+  font-size: 20px;
+  padding: 12px;
+}
+.part3 .dav2 .one i{
+  padding-top: 10px;
+  
+  width: 45px;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  top: 5px;
+  right: 45px;
+  color: white;
+}
+.part3 .dav2 h3{
+  padding: 20px;
+  position: relative;
+  right: 30px;
+}
+.part3 .dav2 .qq input{
+  border: 0px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  padding: 8px 10px 8px 0px ;
+  width: 300px;
+}
+.part3 .dav2 .qq{
+  margin-bottom: 10px;
+}
+/* fooooterrrr */
+
+
+
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: rgb(24, 20, 20);
+  
+}
+
+      .footerCountainer{
+          width: 100%;
+          height: auto;
+          padding: 40px;
+          background-color: rgb(39, 29, 29);
+          color: white;
+          display: flex;
+          font-size: 20px;
+          text-align: center;
+          margin-top: 100px;
+      }
+
+      .contactUs{
+          width: 33%;
+          height: auto;
+          display: row;
+          justify-content: center;
+          justify-content: space-around;
+          
+      }
+      .contactUs h4{
+      padding: 20px;
+      }
+
+      .contactUs p{
+          font-style: thin;
+      }
+
+      .twitter{
+          width: 33%;
+          height: auto;
+          display: row;
+          justify-content: center;
+          justify-content: space-around;
+      }
+
+      .twitter a{
+          color: red;
+      }
+
+      .twitter h4{
+          padding: 20px;
+        }
+
+      .gallery{
+          width: 33%;
+          height: auto;
+          display: row;
+          justify-content: center;
+          justify-content: space-around;
+      }
+
+      .photosCountainer{
+          display: grid;
+          grid-template-columns: auto auto auto;  
+          grid-template-rows: auto auto auto;
+          justify-content: center;
+          gap: 10px;
+      }
+
+      .photosCountainer div img{
+          width: 80px;
+          height: 80px;
+      }

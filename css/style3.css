@@ -1,0 +1,43 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+  color: black;
+  padding: 30px;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-around;
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+.navbar li a{
+  text-decoration: none;
+  color:black;
+  margin-left: 50px;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+.navbar li a:hover{
+  background-color: blue;
+  color: black;
+}
+.dav3 i{
+  margin-left: 25px;
+}
+/* newwwwww */
+ 
+
+.ww{
+  margin-top: 150px;
+  width: 550px;
+  border-radius: 10px;
+}
+.ww:hover{
+  transform: scale(1.1);
+}
